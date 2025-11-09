@@ -1,0 +1,637 @@
+<!doctype html>
+<html lang="en">
+
+<style>
+    /* Timeline Section Styling */
+    .timeline {
+        position: relative;
+        max-width: 800px;
+        margin: 0 auto;
+        padding-left: 20px;
+    }
+
+    .timeline-item {
+        position: relative;
+        margin: 20px 0;
+        padding-left: 40px;
+    }
+
+    .timeline-dot {
+        position: absolute;
+        left: 0;
+        top: 10px;
+        width: 16px;
+        height: 16px;
+        background-color: #d9534f;
+        border-radius: 50%;
+        border: 4px solid white;
+        box-shadow: 0 0 0 2px #d9534f;
+    }
+
+    .timeline-date {
+        font-weight: bold;
+        margin-bottom: 5px;
+        color: #d9534f;
+    }
+
+    .timeline-content {
+        display: flex;
+        align-items: center;
+        padding: 15px;
+        background-color: #f4f4f4;
+        border-radius: 8px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    }
+
+    .timeline-image {
+        width: 100px; /* 控制图片宽度 */
+        height: auto;
+        margin-right: 15px; /* 图片与文字的间距 */
+        border-radius: 8px;
+    }
+
+    .timeline-text h3 {
+        margin-top: 0;
+        color: #333;
+    }
+
+    /* Vertical line for the timeline */
+    .timeline:before {
+        content: "";
+        position: absolute;
+        width: 4px;
+        background-color: #d9534f;
+        top: 0;
+        bottom: 0;
+        left: 8px;
+        transform: translateX(-50%);
+    }
+    .timeline-text h3 a {
+        color: inherit;  /* 继承父元素颜色 */
+        text-decoration: none;  /* 去掉下划线 */
+    }
+
+    .timeline-text h3 a:hover {
+        text-decoration: underline;  /* 鼠标悬停时显示下划线 */
+    }
+
+</style>
+
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>信仰之路--征途与荣耀</title>
+    <!-- Template CSS Style link -->
+    <link rel="stylesheet" href="assets/css/style-starter.css">
+</head>
+
+<body>
+    <!--header-->
+    <header id="site-header" class="fixed-top">
+        <div class="container-fluid">
+            <nav class="navbar navbar-expand-lg stroke">
+                <h1><a class="navbar-brand" href="#index.html"><img src="assets/images/logo.png" alt="Your logo" title="Your logo" style="height:55px;" /></a></h1>
+                <!--<a class="navbar-brand d-flex align-items-center" href="index.html">民族崛起&nbsp;国庆佳节共贺</a> -->
+                <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                    <ul class="navbar-nav ml-lg-auto">
+                        <li class="nav-item active"><a class="nav-link" href="index.html">首页 <span class="sr-only">(current)</span></a></li>
+                        <li class="nav-item"><a class="nav-link" href="about.html">征途与荣耀</a></li>
+						<li class="nav-item"><a class="nav-link" href="activity copy.html">忠诚与奉献</a></li>
+                        <li class="nav-item"><a class="nav-link" href="activity.html">榜样的力量</a></li>
+                        <li class="nav-item"><a class="nav-link" href="sense.html">思想殿堂</a></li>
+                        <li class="nav-item"><a class="nav-link" href="https://www.12371.cn/special/zxzc/">知识自测</a></li>
+                        <li class="nav-item"><a class="nav-link" href="contact.html">联系我们</a></li>
+                    </ul>
+                </div>
+                <!-- toggle switch for light and dark theme -->
+                <div class="cont-ser-position">
+                    <nav class="navigation">
+                        <div class="theme-switch-wrapper">
+                            <label class="theme-switch" for="checkbox">
+                                <input type="checkbox" id="checkbox">
+                                <div class="mode-container">
+                                    <i class="gg-sun"></i>
+                                    <i class="gg-moon"></i>
+                                </div>
+                            </label>
+                        </div>
+                    </nav>
+                </div>
+                <!-- //toggle switch for light and dark theme -->
+            </nav>
+        </div>
+    </header>
+    <!--//header-->
+
+    <!-- inner banner -->
+    <div class="inner-banner">
+        <section class="w3l-breadcrumb">
+            <div class="container">
+                <h4 class="inner-text-title font-weight-bold text-white mb-sm-3 mb-2">征途与荣耀</h4>
+                <ul class="breadcrumbs-custom-path">
+                    <li><a href="index.html">主页</a></li>
+                    <li class="active"><span class="fa fa-chevron-right mx-2" aria-hidden="true"></span>征途与荣耀</li>
+                </ul>
+            </div>
+        </section>
+    </div>
+    <!-- //inner banner -->
+	
+	<!-- about section -->
+	            <!-- fireworks effect -->
+	            <div class="pyro">
+	                <div class="before"></div>
+	                <div class="after"></div>
+	            </div>
+	        </div>
+	    </section>
+	    <!-- //about section -->
+    <!-- Timeline section -->
+<!-- Timeline section -->
+<section class="timeline py-5">
+    <div class="container">
+        <h2 class="text-center mb-5">星星之火 可以燎原</h2>
+        <div class="timeline">
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-date">1919年</div>
+                <div class="timeline-content">
+                    <img src="assets/images/ghlc/wsyd.png" alt="1921年" class="timeline-image">
+                    <div class="timeline-text">
+                        <h3><a href="https://baike.baidu.com/item/%E4%BA%94%E5%9B%9B%E8%BF%90%E5%8A%A8/291670" target="_blank">五四运动</a></h3>
+                        <p>五四运动标志着中国新民主主义革命的开端。</p>
+                    </div>
+                </div>
+            </div>            
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-date">1921年</div>
+                <div class="timeline-content">
+                    <img src="assets/images/ghlc/zggcdcl.png" alt="1921年" class="timeline-image">
+                    <div class="timeline-text">
+                        <h3><a href="https://baike.baidu.com/item/%E4%B8%AD%E5%85%B1%E4%B8%80%E5%A4%A7%E5%8F%AC%E5%BC%80%E5%92%8C%E4%B8%AD%E5%9B%BD%E5%85%B1%E4%BA%A7%E5%85%9A%E6%88%90%E7%AB%8B%EF%BC%881921%E5%B9%B47%E6%9C%88%EF%BC%89/56666326?fromModule=search-result_lemma" target="_blank">中国共产党成立</a></h3>
+                        <p>是开天辟地的大事变，深刻改变了近代以后中华民族发展的方向和进程。</p>
+                    </div>
+                </div>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-date">1927年</div>
+                <div class="timeline-content">
+                    <img src="assets/images/ghlc/ncqy.png" alt="1927年" class="timeline-image">
+                    <div class="timeline-text">
+                        <h3><a href="https://baike.baidu.com/item/%E5%85%AB%E4%B8%80%E5%8D%97%E6%98%8C%E8%B5%B7%E4%B9%89/31440?fromtitle=%E5%8D%97%E6%98%8C%E8%B5%B7%E4%B9%89&fromid=292100" target="_blank">南昌起义</a></h3>
+                        <p>打响了武装反抗国民党反动派的第一枪。</p>
+                    </div>
+                </div>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-date">1935</div>
+                <div class="timeline-content">
+                    <img src="assets/images/ghlc/zyhy.png" alt="1935年" class="timeline-image">
+                    <div class="timeline-text">
+                        <h3><a href="https://baike.baidu.com/item/%E9%81%B5%E4%B9%89%E4%BC%9A%E8%AE%AE/64086" target="_blank">遵义会议</a></h3>
+                        <p>是中国共产党历史上具有伟大转折意义的会议之一。</p>
+                    </div>
+                </div>
+            </div>            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-date">1938年</div>
+                <div class="timeline-content">
+                    <img src="assets/images/ghlc/dljlzqh.png" alt="1938年" class="timeline-image">
+                    <div class="timeline-text">
+                        <h3><a href="https://baike.baidu.com/item/%E4%B8%AD%E5%9B%BD%E5%85%B1%E4%BA%A7%E5%85%9A%E7%AC%AC%E5%85%AD%E5%B1%8A%E4%B8%AD%E5%A4%AE%E5%A7%94%E5%91%98%E4%BC%9A%E7%AC%AC%E5%85%AD%E6%AC%A1%E5%85%A8%E4%BD%93%E4%BC%9A%E8%AE%AE/8566953?fr=ge_ala" target="_blank">第六届六中全会</a></h3>
+                        <p>进一步巩固了毛泽东在全党的领导地位。</p>
+                    </div>
+                </div>
+            </div>            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-date">1944年</div>
+                <div class="timeline-content">
+                    <img src="assets/images/ghlc/yazfyd.png" alt="1944年" class="timeline-image">
+                    <div class="timeline-text">
+                        <h3><a href="https://baike.baidu.com/item/%E5%BB%B6%E5%AE%89%E6%95%B4%E9%A3%8E%E8%BF%90%E5%8A%A8/4416458?fr=ge_ala" target="_blank">延安整风运动</a></h3>
+                        <p>为夺取抗日战争和民主革命的胜利奠定了思想基础。</p>
+                    </div>
+                </div>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-date">1945年</div>
+                <div class="timeline-content">
+                    <img src="assets/images/ghlc/zgqd.png" alt="1945年" class="timeline-image">
+                    <div class="timeline-text">
+                        <h3><a href="https://baike.baidu.com/item/%E4%B8%AD%E5%9B%BD%E5%85%B1%E4%BA%A7%E5%85%9A%E7%AC%AC%E4%B8%83%E6%AC%A1%E5%85%A8%E5%9B%BD%E4%BB%A3%E8%A1%A8%E5%A4%A7%E4%BC%9A?fromtitle=%E4%B8%AD%E5%85%B1%E4%B8%83%E5%A4%A7&fromid=3583873&fromModule=lemma_search-box" target="_blank">中共七大</a></h3>
+                        <p>使全党在马克思列宁主义、毛泽东思想的基础上达到了空前的团结与统一。</p>
+                    </div>
+                </div>
+            </div>            
+
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-date">1945年</div>
+                <div class="timeline-content">
+                    <img src="assets/images/ghlc/krzzsl.png" alt="1945年" class="timeline-image">
+                    <div class="timeline-text">
+                        <h3><a href="https://baike.baidu.com/item/%E6%8A%97%E6%97%A5%E6%88%98%E4%BA%89/128498" target="_blank">抗日战争胜利</a></h3>
+                        <p>是中国近代以来抗击外敌入侵第一次取得完全胜利的民族解放战争。</p>
+                    </div>
+                </div>
+            </div>            
+
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-date">1948年</div>
+                <div class="timeline-content">
+                    <img src="assets/images/ghlc/tdgg.png" alt="1948年" class="timeline-image">
+                    <div class="timeline-text">
+                        <h3><a href="https://baike.baidu.com/item/%E5%9C%9F%E5%9C%B0%E6%94%B9%E9%9D%A9/3455375" target="_blank">土地改革</a></h3>
+                        <p>为国家的社会主义工业化和农业的社会主义改造准备条件。</p>
+                    </div>
+                </div>
+            </div>      
+          
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-date">1949年</div>
+                <div class="timeline-content">
+                    <img src="assets/images/ghlc/jfzzsl.png" alt="1949年" class="timeline-image">
+                    <div class="timeline-text">
+                        <h3><a href="https://baike.baidu.com/item/%E8%A7%A3%E6%94%BE%E6%88%98%E4%BA%89/6066" target="_blank">解放战争胜利</a></h3>
+                        <p>解放战争胜利，标志着中国新民主主义革命已经取得基本胜利。</p>
+                    </div>
+                </div>
+            </div>            
+
+
+
+        </div>
+    </div>
+</section>
+<!-- //Timeline section -->
+<section class="timeline py-5">
+    <div class="container">
+        <h2 class="text-center mb-5">站起来 富起来 强起来的伟大飞跃</h2>
+        <div class="timeline">
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-date">1949年</div>
+                <div class="timeline-content">
+                    <img src="assets/images/ghlc/zhrmghgcl.png" alt="1949年" class="timeline-image">
+                    <div class="timeline-text">
+                        <h3><a href="https://baike.baidu.com/item/%E4%B8%AD%E5%8D%8E%E4%BA%BA%E6%B0%91%E5%85%B1%E5%92%8C%E5%9B%BD%E6%88%90%E7%AB%8B/59856867?fromModule=search-result_lemma" target="_blank">中华人民共和国成立</a></h3>
+                        <p>中华人民共和国成立，标志着新中国的诞生。</p>
+                    </div>
+                </div>
+            </div>  
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-date">1950年</div>
+                <div class="timeline-content">
+                    <img src="assets/images/ghlc/kmyc.png" alt="1950年" class="timeline-image">
+                    <div class="timeline-text">
+                        <h3><a href="https://baike.baidu.com/item/%E6%8A%97%E7%BE%8E%E6%8F%B4%E6%9C%9D/383" target="_blank">抗美援朝</a></h3>
+                        <p>抗美援朝，保家卫国。</p>
+                    </div>
+                </div>
+            </div>                                    
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-date">1954年</div>
+                <div class="timeline-content">
+                    <img src="assets/images/ghlc/qgyd.png" alt="1921年" class="timeline-image">
+                    <div class="timeline-text">
+                        <h3><a href="https://baike.baidu.com/item/%E4%B8%AD%E5%9B%BD%E5%85%B1%E4%BA%A7%E5%85%9A%E7%AC%AC%E4%B8%80%E6%AC%A1%E5%85%A8%E5%9B%BD%E4%BB%A3%E8%A1%A8%E5%A4%A7%E4%BC%9A?fromtitle=%E5%85%A8%E5%9B%BD%E4%B8%80%E5%A4%A7&fromid=16933100&fromModule=lemma_search-box" target="_blank">全国一大</a></h3>
+                        <p>全国一大的召开，确立了社会主义根本政治制度。</p>
+                    </div>
+                </div>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-date">1956年</div>
+                <div class="timeline-content">
+                    <img src="assets/images/ghlc/zgbd.png" alt="1956年" class="timeline-image">
+                    <div class="timeline-text">
+                        <h3><a href="https://baike.baidu.com/item/%E4%B8%AD%E5%9B%BD%E5%85%B1%E4%BA%A7%E5%85%9A%E7%AC%AC%E5%85%AB%E6%AC%A1%E5%85%A8%E5%9B%BD%E4%BB%A3%E8%A1%A8%E5%A4%A7%E4%BC%9A/1010440?fromtitle=%E4%B8%AD%E5%85%B1%E5%85%AB%E5%A4%A7&fromid=3583961&fromModule=lemma_search-box" target="_blank">中共八大</a></h3>
+                        <p>我国社会主要矛盾发生变化。</p>
+                    </div>
+                </div>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-date">1978</div>
+                <div class="timeline-content">
+                    <img src="assets/images/ghlc/syjszqh.png" alt="1978年" class="timeline-image">
+                    <div class="timeline-text">
+                        <h3><a href="https://baike.baidu.com/item/%E4%B8%AD%E5%9B%BD%E5%85%B1%E4%BA%A7%E5%85%9A%E7%AC%AC%E5%8D%81%E4%B8%80%E5%B1%8A%E4%B8%AD%E5%A4%AE%E5%A7%94%E5%91%98%E4%BC%9A%E7%AC%AC%E4%B8%89%E6%AC%A1%E5%85%A8%E4%BD%93%E4%BC%9A%E8%AE%AE?fromtitle=%E5%8D%81%E4%B8%80%E5%B1%8A%E4%B8%89%E4%B8%AD%E5%85%A8%E4%BC%9A&fromid=390224&fromModule=lemma_search-box" target="_blank">十一届三中全会</a></h3>
+                        <p>拨乱反正，解决“左倾”错误，进行改革开放。</p>
+                    </div>
+                </div>
+            </div>            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-date">1992年</div>
+                <div class="timeline-content">
+                    <img src="assets/images/ghlc/zgssd.png" alt="1992年" class="timeline-image">
+                    <div class="timeline-text">
+                        <h3><a href="https://baike.baidu.com/item/%E4%B8%AD%E5%9B%BD%E5%85%B1%E4%BA%A7%E5%85%9A%E7%AC%AC%E5%8D%81%E5%9B%9B%E6%AC%A1%E5%85%A8%E5%9B%BD%E4%BB%A3%E8%A1%A8%E5%A4%A7%E4%BC%9A/1011236?fromtitle=%E4%B8%AD%E5%85%B1%E5%8D%81%E5%9B%9B%E5%A4%A7&fromid=11160333&fromModule=lemma_search-box" target="_blank">中共十四大</a></h3>
+                        <p>解放思想，实事求是，确立邓小平理论为指导思想。</p>
+                    </div>
+                </div>
+            </div>            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-date">1997年-1999年</div>
+                <div class="timeline-content">
+                    <img src="assets/images/ghlc/gahg.png" alt="1997年-1999年" class="timeline-image">
+                    <div class="timeline-text">
+                        <h3><a href="https://baike.baidu.com/item/%E6%BE%B3%E9%97%A8%E5%9B%9E%E5%BD%92/1058256" target="_blank">港澳回归</a></h3>
+                        <p>我国领土完整进一步加强。</p>
+                    </div>
+                </div>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-date">2002年</div>
+                <div class="timeline-content">
+                    <img src="assets/images/ghlc/sld.png" alt="2002年" class="timeline-image">
+                    <div class="timeline-text">
+                        <h3><a href="https://baike.baidu.com/item/%E4%B8%AD%E5%9B%BD%E5%85%B1%E4%BA%A7%E5%85%9A%E7%AC%AC%E5%8D%81%E5%85%AD%E6%AC%A1%E5%85%A8%E5%9B%BD%E4%BB%A3%E8%A1%A8%E5%A4%A7%E4%BC%9A?fromtitle=%E5%8D%81%E5%85%AD%E5%A4%A7&fromid=11260393&fromModule=lemma_search-box" target="_blank">中共十六大</a></h3>
+                        <p>把“三个代表”重要思想写入党章。</p>
+                    </div>
+                </div>
+            </div>            
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-date">2007年</div>
+                <div class="timeline-content">
+                    <img src="assets/images/ghlc/sqd.png" alt="2007年" class="timeline-image">
+                    <div class="timeline-text">
+                        <h3><a href="https://baike.baidu.com/item/%E4%B8%AD%E5%9B%BD%E5%85%B1%E4%BA%A7%E5%85%9A%E7%AC%AC%E5%8D%81%E4%B8%83%E6%AC%A1%E5%85%A8%E5%9B%BD%E4%BB%A3%E8%A1%A8%E5%A4%A7%E4%BC%9A/7159840" target="_blank">中共十七大</a></h3>
+                        <p>将中国特色社会主义理论体系和科学发展观写入党章。</p>
+                    </div>
+                </div>
+            </div>            
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-date">2008年</div>
+                <div class="timeline-content">
+                    <img src="assets/images/ghlc/bjayh.png" alt="2008年" class="timeline-image">
+                    <div class="timeline-text">
+                        <h3><a href="https://baike.baidu.com/item/2008%E5%B9%B4%E5%8C%97%E4%BA%AC%E5%A5%A5%E8%BF%90%E4%BC%9A?fromtitle=%E5%8C%97%E4%BA%AC%E5%A5%A5%E8%BF%90%E4%BC%9A&fromid=335299&fromModule=lemma_search-box" target="_blank">北京奥运会</a></h3>
+                        <p>北京奥运会的举办，标志着我国综合实力进一步加强。</p>
+                    </div>
+                </div>
+            </div>            
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-date">2012年</div>
+                <div class="timeline-content">
+                    <img src="assets/images/ghlc/zgsbd.png" alt="2012年" class="timeline-image">
+                    <div class="timeline-text">
+                        <h3><a href="https://baike.baidu.com/item/%E4%B8%AD%E5%9B%BD%E5%85%B1%E4%BA%A7%E5%85%9A%E7%AC%AC%E5%8D%81%E5%85%AB%E6%AC%A1%E5%85%A8%E5%9B%BD%E4%BB%A3%E8%A1%A8%E5%A4%A7%E4%BC%9A/10161916?fromModule=search-result_lemma" target="_blank">中共十八大</a></h3>
+                        <p>“中国梦”的提出和治国理政新部署。</p>
+                    </div>
+                </div>
+            </div> 
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-date">2017年</div>
+                <div class="timeline-content">
+                    <img src="assets/images/ghlc/sjd.png" alt="2017年" class="timeline-image">
+                    <div class="timeline-text">
+                        <h3><a href="https://baike.baidu.com/item/%E4%B8%AD%E5%9B%BD%E5%85%B1%E4%BA%A7%E5%85%9A%E7%AC%AC%E5%8D%81%E4%B9%9D%E6%AC%A1%E5%85%A8%E5%9B%BD%E4%BB%A3%E8%A1%A8%E5%A4%A7%E4%BC%9A/1629417" target="_blank">中共十九大</a></h3>
+                        <p>确立习近平新时代中国特色社会主义思想的指导地位。</p>
+                    </div>
+                </div>
+            </div> 
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-date">2020年</div>
+                <div class="timeline-content">
+                    <img src="assets/images/ghlc/tpgj.png" alt="2008年" class="timeline-image">
+                    <div class="timeline-text">
+                        <h3><a href="https://baike.baidu.com/item/%E8%84%B1%E8%B4%AB%E6%94%BB%E5%9D%9A%E6%88%98/18891455?fromtitle=%E8%84%B1%E8%B4%AB%E6%94%BB%E5%9D%9A&fromid=55662798" target="_blank">脱贫攻坚</a></h3>
+                        <p>标志着我国全面建成小康社会。</p>
+                    </div>
+                </div>
+            </div> 
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-date">2021年</div>
+                <div class="timeline-content">
+                    <img src="assets/images/ghlc/zggcdbnhd.png" alt="2021年" class="timeline-image">
+                    <div class="timeline-text">
+                        <h3><a href="https://baike.baidu.com/item/%E5%BA%86%E7%A5%9D%E4%B8%AD%E5%9B%BD%E5%85%B1%E4%BA%A7%E5%85%9A%E6%88%90%E7%AB%8B100%E5%91%A8%E5%B9%B4/55757846?fromModule=search-result_lemma" target="_blank">党的百年华诞</a></h3>
+                        <p>民族复兴的里程碑</p>
+                    </div>
+                </div>
+            </div> 
+
+
+        </div>
+    </div>
+</section>
+
+
+
+
+
+
+
+
+
+    <!-- //Timeline section -->
+
+    <!-- videos section -->
+    <section class="w3l-homeblock4 py-5" id="video">
+        <div class="video-recipe py-md-5 py-4">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6 align-self">
+                        <div class="waviy mb-sm-3 mb-2">
+                            <span style="--i:1">党</span>
+                            <span style="--i:2">的</span>
+                            <span style="--i:3">光</span>
+                            <span style="--i:4">辉</span>
+                            <span style="--i:5">历</span>
+                            <span style="--i:6">程</span>
+                        </div>
+                        <p class="pr-lg-5">
+							争取民族独立、人民解放和实现国家富强、人民幸福，是中国共产党百年历史的主题和主线；“不懈奋斗史”“理论探索史”“自身建设史”，是中国共产党百年历史的主流和本质；把革命、建设、改革、复兴事业不断推向前进，是中国共产党百年历史的鲜明特征；逐步实现救国、兴国、富国、强国的奋斗目标，是中国共产党百年历史的庄严使命。
+    					</p>
+    					<p class="pr-lg-5">
+    					</p>
+    					<p class="pr-lg-5">
+							百年征程波澜壮阔，百年初心历久弥坚。从播下革命火种的小小红船，到领航复兴伟业的巍巍巨轮，在百年奋斗历程中，我们党领导人民取得了举世瞩目的辉煌成就，书写了波澜壮阔的历史画卷，留下了弥足珍贵的宝贵经验和精神财富。
+    					</p>
+                    </div>
+                    <div class="col-lg-6 mt-lg-0 mt-sm-5 mt-4">
+                        <div class="row">
+                            <div class="col-md-6 p-md-0"><video src="assets/images/2.mp4" controls style="width:800px; height:450px; /* 16:9 ratio */"></video>
+                            </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- //videos section -->
+
+    <!-- footer -->
+    <!-- copyright -->
+    <section class="w3l-copyright">
+    </section>
+    <!-- //copyright -->
+    <!-- //footer -->
+
+    <!-- Js scripts -->
+    <!-- move top -->
+    <button onclick="topFunction()" id="movetop" title="Go to top">
+        <span class="fa fa-level-up" aria-hidden="true"></span>
+    </button>
+    <script>
+        // When the user scrolls down 20px from the top of the document, show the button
+        window.onscroll = function () {
+            scrollFunction()
+        };
+
+        function scrollFunction() {
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                document.getElementById("movetop").style.display = "block";
+            } else {
+                document.getElementById("movetop").style.display = "none";
+            }
+        }
+
+        // When the user clicks on the button, scroll to the top of the document
+        function topFunction() {
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0;
+        }
+    </script>
+    <!-- //move top -->
+
+    <!-- common jquery plugin -->
+    <script src="assets/js/jquery-3.3.1.min.js"></script>
+    <!-- //common jquery plugin -->
+
+    <!-- owl carousel -->
+    <script src="assets/js/owl.carousel.js"></script>
+    <!-- script for tesimonials carousel slider -->
+    <script>
+        $(document).ready(function () {
+            $("#owl-demo2").owlCarousel({
+                loop: true,
+                margin: 20,
+                nav: false,
+                responsiveClass: true,
+                autoplay: true,
+                autoplayTimeout: 5000,
+                autoplaySpeed: 1000,
+                autoplayHoverPause: false,
+                responsive: {
+                    0: {
+                        items: 1,
+                        nav: false
+                    },
+                    1000: {
+                        items: 1,
+                        nav: false,
+                        loop: false
+                    }
+                }
+            })
+        })
+    </script>
+    <!-- //script for tesimonials carousel slider -->
+
+    <!-- counter for stats -->
+    <script src="assets/js/counter.js"></script>
+    <!-- //counter for stats -->
+
+    <!-- theme switch js (light and dark)-->
+    <script src="assets/js/theme-change.js"></script>
+    <script>
+        function autoType(elementClass, typingSpeed) {
+            var thhis = $(elementClass);
+            thhis.css({
+                "position": "relative",
+                "display": "inline-block"
+            });
+            thhis.prepend('<div class="cursor" style="right: initial; left:0;"></div>');
+            thhis = thhis.find(".text-js");
+            var text = thhis.text().trim().split('');
+            var amntOfChars = text.length;
+            var newString = "";
+            thhis.text("|");
+            setTimeout(function () {
+                thhis.css("opacity", 1);
+                thhis.prev().removeAttr("style");
+                thhis.text("");
+                for (var i = 0; i < amntOfChars; i++) {
+                    (function (i, char) {
+                        setTimeout(function () {
+                            newString += char;
+                            thhis.text(newString);
+                        }, i * typingSpeed);
+                    })(i + 1, text[i]);
+                }
+            }, 1500);
+        }
+
+        $(document).ready(function () {
+            // Now to start autoTyping just call the autoType function with the 
+            // class of outer div
+            // The second paramter is the speed between each letter is typed.   
+            autoType(".type-js", 200);
+        });
+    </script>
+    <!-- //theme switch js (light and dark)-->
+
+    <!-- MENU-JS -->
+    <script>
+        $(window).on("scroll", function () {
+            var scroll = $(window).scrollTop();
+
+            if (scroll >= 80) {
+                $("#site-header").addClass("nav-fixed");
+            } else {
+                $("#site-header").removeClass("nav-fixed");
+            }
+        });
+
+        //Main navigation Active Class Add Remove
+        $(".navbar-toggler").on("click", function () {
+            $("header").toggleClass("active");
+        });
+        $(document).on("ready", function () {
+            if ($(window).width() > 991) {
+                $("header").removeClass("active");
+            }
+            $(window).on("resize", function () {
+                if ($(window).width() > 991) {
+                    $("header").removeClass("active");
+                }
+            });
+        });
+    </script>
+    <!-- //MENU-JS -->
+
+    <!-- disable body scroll which navbar is in active -->
+    <script>
+        $(function () {
+            $('.navbar-toggler').click(function () {
+                $('body').toggleClass('noscroll');
+            })
+        });
+    </script>
+    <!-- //disable body scroll which navbar is in active -->
+
+    <!--bootstrap-->
+    <script src="assets/js/bootstrap.min.js"></script>
+    <!-- //bootstrap-->
+    <!-- //Js scripts -->
+</body>
+
+</html>
